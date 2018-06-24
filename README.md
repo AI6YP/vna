@@ -19,3 +19,10 @@ http://vnaj.dl2sba.com/
 ```
 java -Dsun.java2d.uiScale=2 -jar vnaJ.3.1.22.jar
 ```
+
+  * https://github.com/tx0/minivna/
+  * http://wiki.oz9aec.net/index.php/MiniVNA_ICD
+  * https://github.com/Hamlib/Hamlib/tree/master/miniVNA
+  * https://github.com/drandrewthomas/vnamini_sharp
+
+  
