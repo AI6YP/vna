@@ -4,8 +4,10 @@ miniVNA Tiny VNA setup
 ### Setup OpenSuse
 
 ```sh
-sudo usermod -a -G tty yourname
-sudo usermod -a -G dialout yourname
+echo "$USER"
+
+sudo usermod -a -G tty <yourname>
+sudo usermod -a -G dialout <yourname>
 
 cd programs
 wget http://download.dl2sba.com/vnaj/3.2.7/vnaJ.3.2.7.jar
