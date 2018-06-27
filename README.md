@@ -6,11 +6,14 @@ miniVNA Tiny VNA setup
 ```sh
 echo "$USER"
 
-sudo usermod -a -G tty <yourname>
-sudo usermod -a -G dialout <yourname>
+# setup groups
+sudo usermod -a -G tty,dialout <yourname>
 
 cd programs
+# download the program
 wget http://download.dl2sba.com/vnaj/3.2.7/vnaJ.3.2.7.jar
+
+# run the program
 java -Dsun.java2d.uiScale=2 -jar vnaJ.3.2.7.jar
 ```
 
