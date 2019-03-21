@@ -1,0 +1,19 @@
+{
+  "name": "vna",
+  "version": "1.0.0",
+  "description": "miniVNA Tiny VNA setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello VNA\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI6YP/vna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AI6YP/vna/issues"
+  },
+  "homepage": "https://github.com/AI6YP/vna#readme"
+}
