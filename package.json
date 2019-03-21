@@ -4,7 +4,8 @@
   "description": "miniVNA Tiny VNA setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello VNA\""
+    "test": "echo \"Hello VNA\"",
+    "build": "mkdir public && echo \"<html>VNA</html>\" > public/index.html"
   },
   "repository": {
     "type": "git",
