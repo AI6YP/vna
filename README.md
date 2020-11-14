@@ -1,5 +1,6 @@
-# vna
-miniVNA Tiny VNA setup
+## miniVNA
+
+Tiny VNA setup
 
 ### Setup OpenSuse
 
@@ -25,3 +26,34 @@ java -Dsun.java2d.uiScale=2 -jar vnaJ.3.2.7.jar
   * http://wiki.oz9aec.net/index.php/MiniVNA_ICD
   * https://github.com/Hamlib/Hamlib/tree/master/miniVNA
   * https://github.com/drandrewthomas/vnamini_sharp
+
+## Nano VNA 2
+
+### NanoVNA-QT
+
+```bash
+sudo zypper in fftw3-devel libQt5Charts5-devel libQt5Charts5 libQt5Svg5 libqt5-qtsvg-devel
+
+mkdir nanovna
+cd nanovna/
+git clone git@github.com:nanovna/NanoVNA-QT.git
+cd NanoVNA-QT/
+autoreconf --install
+./configure
+make
+
+qmake-qt5
+make
+
+
+cd libxavna/xavna_mock_ui/
+qmake-qt5
+make
+...
+cd vna_qt/
+qmake-qt5
+make
+
+../run ./vna_qt
+
+```
